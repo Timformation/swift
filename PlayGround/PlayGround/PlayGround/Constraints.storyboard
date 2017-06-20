@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Yn2-Cp-YVY">
+            <objects>
+                <viewController id="Mmu-rR-vsk" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SNz-Qx-9Qc"/>
+                        <viewControllerLayoutGuide type="bottom" id="kvo-fA-48M"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rPL-br-0Vq">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="upp-rv-VIG">
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qXP-CV-Hrl">
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bNb-LQ-LD0">
+                                <color key="backgroundColor" red="1" green="0.97780817895366712" blue="0.38246272249605306" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="A longer Label"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qua-eY-NoE">
+                                <color key="backgroundColor" red="0.25076875313270264" green="1" blue="0.20588006638481771" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="kvo-fA-48M" firstAttribute="top" secondItem="upp-rv-VIG" secondAttribute="bottom" constant="20" id="1qB-nt-sxd"/>
+                            <constraint firstItem="upp-rv-VIG" firstAttribute="centerX" secondItem="rPL-br-0Vq" secondAttribute="centerX" id="2lR-p4-cSs"/>
+                            <constraint firstItem="qXP-CV-Hrl" firstAttribute="trailing" secondItem="rPL-br-0Vq" secondAttribute="trailingMargin" id="IE9-dz-Mok"/>
+                            <constraint firstItem="qua-eY-NoE" firstAttribute="leading" secondItem="bNb-LQ-LD0" secondAttribute="leading" id="Idp-8G-dQm"/>
+                            <constraint firstItem="bNb-LQ-LD0" firstAttribute="top" secondItem="qua-eY-NoE" secondAttribute="bottom" constant="40" id="T96-DU-6Uo"/>
+                            <constraint firstItem="qXP-CV-Hrl" firstAttribute="top" secondItem="SNz-Qx-9Qc" secondAttribute="bottom" constant="8" id="UeW-wG-km3"/>
+                            <constraint firstItem="kvo-fA-48M" firstAttribute="top" secondItem="upp-rv-VIG" secondAttribute="bottom" constant="20" id="dJ2-30-4rr"/>
+                            <constraint firstItem="kvo-fA-48M" firstAttribute="top" secondItem="bNb-LQ-LD0" secondAttribute="bottom" constant="20" id="hAt-d5-KUm"/>
+                            <constraint firstItem="bNb-LQ-LD0" firstAttribute="leading" secondItem="upp-rv-VIG" secondAttribute="trailing" constant="8" id="rGJ-8f-OOq"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HHH-BO-w5S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="467" y="-130"/>
+        </scene>
+    </scenes>
+</document>
